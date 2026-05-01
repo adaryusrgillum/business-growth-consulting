@@ -104,7 +104,7 @@
           "breadcrumb": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#breadcrumb" },
           "speakable": {
             "@type": "SpeakableSpecification",
-            "cssSelector": [".hero h1", ".hero p", ".section-title", ".aeo-box"]
+            "cssSelector": [".hero h1", ".hero p", ".section-title", ".aeo-box", ".service-card h3", ".service-card p", ".step-card h3", ".step-card p", ".testimonial-text", ".faq-question", ".faq-answer"]
           }
         },
         {
@@ -561,12 +561,156 @@
               "description": "Email automation, lead follow-up automation, and Zapier workflow setup by Adaryus Gillum."
             }
           ]
+        },
+        {
+          "@type": "Course",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#course-seo",
+          "name": "Small Business SEO Masterclass by Adaryus Gillum",
+          "description": "Learn how to rank your small business on Google with local SEO, on-page optimization, keyword research, and Google Business Profile setup. Taught by Adaryus Gillum.",
+          "provider": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" },
+          "educationalLevel": "Beginner to Intermediate",
+          "teaches": ["Local SEO", "Keyword Research", "Google Business Profile", "On-Page SEO", "Technical SEO"],
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "instructor": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" }
+          }
+        },
+        {
+          "@type": "Course",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#course-ai",
+          "name": "AI Integration for Small Business Owners by Adaryus Gillum",
+          "description": "Learn how to implement AI chatbots, AI content workflows, AI customer service tools, and AI marketing automation in your small business. Taught by Adaryus Gillum.",
+          "provider": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" },
+          "educationalLevel": "Beginner",
+          "teaches": ["AI Chatbot Setup", "AI Content Workflows", "AI Customer Service", "AI Marketing Automation", "AI Lead Follow-Up"],
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "instructor": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" }
+          }
+        },
+        {
+          "@type": "Course",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#course-automation",
+          "name": "Business Automation with Zapier and n8n by Adaryus Gillum",
+          "description": "Learn how to automate email follow-up, lead management, appointment reminders, social media workflows, and CRM integrations using Zapier and n8n. Taught by Adaryus Gillum.",
+          "provider": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" },
+          "educationalLevel": "Beginner to Intermediate",
+          "teaches": ["Zapier Automation", "n8n Workflows", "Email Automation", "CRM Integration", "Lead Follow-Up Automation"],
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "instructor": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" }
+          }
+        },
+        {
+          "@type": "Event",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#event-consultation",
+          "name": "Free Business Growth Consultation with Adaryus Gillum",
+          "description": "Schedule a free consultation with Adaryus Gillum to discuss your business goals, current challenges, and how to grow your digital presence with web design, SEO, AI, and automation.",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "organizer": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#organization" },
+          "performer": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2026-05-01"
+          }
+        },
+        {
+          "@type": "Event",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#event-insurance-review",
+          "name": "Free Insurance Review with Travis Abel at Abel Insurance Group",
+          "description": "Schedule a free insurance review with Travis Abel at Abel Insurance Group to assess your current coverage, identify risks, and explore better protection options for your business.",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+          "organizer": {
+            "@type": "Organization",
+            "name": "Abel Insurance Group",
+            "url": "https://abelinsgroup.com"
+          },
+          "performer": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#travis-abel" },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2026-05-01"
+          }
+        },
+        {
+          "@type": "JobPosting",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#job-marketing-specialist",
+          "title": "Digital Marketing Specialist",
+          "description": "We are looking for a Digital Marketing Specialist to join Adaryus Gillum's team. You will help small businesses with SEO, content strategy, social media management, and campaign execution. Remote-friendly position.",
+          "datePosted": "2026-05-01",
+          "validThrough": "2026-12-31",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#organization" },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US"
+            }
+          },
+          "jobLocationType": "TELECOMMUTE",
+          "applicantLocationRequirements": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "baseSalary": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": {
+              "@type": "QuantitativeValue",
+              "minValue": 50000,
+              "maxValue": 75000,
+              "unitText": "YEAR"
+            }
+          }
+        },
+        {
+          "@type": "JobPosting",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#job-web-developer",
+          "title": "Web Developer & Automation Specialist",
+          "description": "We are looking for a Web Developer & Automation Specialist to join Adaryus Gillum's team. You will build modern websites, set up CRMs, create Zapier and n8n workflows, and implement AI tools for small business clients.",
+          "datePosted": "2026-05-01",
+          "validThrough": "2026-12-31",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#organization" },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "US"
+            }
+          },
+          "jobLocationType": "TELECOMMUTE",
+          "applicantLocationRequirements": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "baseSalary": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": {
+              "@type": "QuantitativeValue",
+              "minValue": 55000,
+              "maxValue": 85000,
+              "unitText": "YEAR"
+            }
+          }
         }
       ]
     }
     </script>
-    <script type="module" crossorigin src="/business-growth-consulting/assets/index-DmA3wlXT.js"></script>
-    <link rel="stylesheet" crossorigin href="/business-growth-consulting/assets/index-B_GTxY4S.css">
+    <script type="module" crossorigin src="/business-growth-consulting/assets/index-mD2hhvOP.js"></script>
+    <link rel="stylesheet" crossorigin href="/business-growth-consulting/assets/index-CXQc-DaD.css">
   </head>
   <body>
     <div id="root"></div>
