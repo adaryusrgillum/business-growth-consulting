@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+
+Sitemap: https://adaryusrgillum.github.io/business-growth-consulting/sitemap.xml
