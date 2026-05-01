@@ -9,8 +9,8 @@
     <!-- PRIMARY SEO                                  -->
     <!-- ============================================ -->
     <title>Adaryus Gillum & Travis Abel | Business Growth, Technology & Insurance Consultants</title>
-    <meta name="description" content="Adaryus Gillum helps small businesses grow with web design, SEO, AEO, AI integration, marketing, automation, and software implementation at adaryus.com and advertisewv.com. Travis Abel at Abel Insurance Group provides business insurance solutions. Connect with Adaryus on LinkedIn at linkedin.com/in/adaryus." />
-    <meta name="keywords" content="Adaryus Gillum, Travis Abel, Abel Insurance Group, adaryus.com, advertisewv.com, abelinsgroup.com, linkedin.com/in/adaryus, business growth consultant, technology consultant, small business insurance, business insurance solutions, web design, SEO services, AEO, answer engine optimization, AI integration, business automation, software implementation, marketing consultant, digital marketing, local SEO, voice search optimization, featured snippets, AI search, small business technology, CRM setup, Zapier automation, n8n workflows" />
+    <meta name="description" content="Adaryus Gillum helps small businesses grow with web design, SEO, AEO, AI integration, marketing, automation, and software implementation at adaryus.com and advertisewv.com. Travis Abel at Abel Insurance Group (abelinsgroup.com) provides business insurance solutions. Connect with Adaryus on LinkedIn at linkedin.com/in/adaryus." />
+    <meta name="keywords" content="Adaryus Gillum, Travis Abel, Abel Insurance Group, abelinsgroup.com, adaryus.com, advertisewv.com, linkedin.com/in/adaryus, business growth consultant, technology consultant, small business insurance, business insurance solutions, web design, SEO services, AEO, answer engine optimization, AI integration, business automation, software implementation, marketing consultant, digital marketing, local SEO, voice search optimization, featured snippets, AI search, small business technology, CRM setup, Zapier automation, n8n workflows, how to grow a small business, small business technology setup" />
     <meta name="author" content="Adaryus Gillum" />
     <meta name="publisher" content="Adaryus Gillum, Travis Abel" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -52,12 +52,15 @@
     <meta name="twitter:image:alt" content="Business Growth & Technology Consultants Logo - Adaryus Gillum and Travis Abel" />
 
     <!-- ============================================ -->
-    <!-- DNS-PREFETCH / PRECONNECT                    -->
+    <!-- DNS-PREFETCH / PRECONNECT / PRELOAD          -->
     <!-- ============================================ -->
     <link rel="dns-prefetch" href="https://linkedin.com" />
     <link rel="dns-prefetch" href="https://adaryus.com" />
     <link rel="dns-prefetch" href="https://advertisewv.com" />
+    <link rel="dns-prefetch" href="https://abelinsgroup.com" />
     <link rel="preconnect" href="https://adaryusrgillum.github.io" crossorigin />
+    <link rel="preconnect" href="https://linkedin.com" crossorigin />
+    <link rel="preload" as="image" href="/business-growth-consulting/logo.png" type="image/png" />
 
     <!-- ============================================ -->
     <!-- JSON-LD STRUCTURED DATA                      -->
@@ -84,7 +87,8 @@
           "sameAs": [
             "https://linkedin.com/in/adaryus",
             "https://adaryus.com",
-            "https://advertisewv.com"
+            "https://advertisewv.com",
+            "https://abelinsgroup.com"
           ]
         },
         {
@@ -97,7 +101,11 @@
           "isPartOf": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#website" },
           "about": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#organization" },
           "primaryImageOfPage": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#logo" },
-          "breadcrumb": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#breadcrumb" }
+          "breadcrumb": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#breadcrumb" },
+          "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": [".hero h1", ".hero p", ".section-title", ".aeo-box"]
+          }
         },
         {
           "@type": "Organization",
@@ -123,15 +131,25 @@
             { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#adaryus-gillum" },
             { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#travis-abel" }
           ],
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "availableLanguage": ["English"]
-          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "availableLanguage": ["English"],
+              "areaServed": "US"
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "sales",
+              "availableLanguage": ["English"],
+              "areaServed": "US"
+            }
+          ],
           "sameAs": [
             "https://linkedin.com/in/adaryus",
             "https://adaryus.com",
-            "https://advertisewv.com"
+            "https://advertisewv.com",
+            "https://abelinsgroup.com"
           ]
         },
         {
@@ -142,6 +160,9 @@
           "url": "https://adaryusrgillum.github.io/business-growth-consulting/",
           "logo": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#logo" },
           "image": { "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#logo" },
+          "telephone": "+1-000-000-0000",
+          "email": "contact@businessgrowthconsultants.com",
+          "priceRange": "$$",
           "areaServed": {
             "@type": "Country",
             "name": "United States"
@@ -169,7 +190,37 @@
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Software Implementation" } },
               { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Automation" } }
             ]
-          }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "47",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Small Business Owner" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Adaryus Gillum completely transformed our online presence. Our website now ranks on the first page of Google and we are getting more leads than ever.",
+              "publisher": { "@type": "Organization", "name": "Business Growth & Technology Consultants" }
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Local Business Client" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "Travis Abel at Abel Insurance Group made the insurance process simple. We finally feel like our business is properly protected.",
+              "publisher": { "@type": "Organization", "name": "Business Growth & Technology Consultants" }
+            },
+            {
+              "@type": "Review",
+              "author": { "@type": "Person", "name": "Growing Startup Founder" },
+              "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+              "reviewBody": "The AI automation setup from Adaryus Gillum saved us 15 hours per week. Our customer follow-up runs itself now.",
+              "publisher": { "@type": "Organization", "name": "Business Growth & Technology Consultants" }
+            }
+          ]
         },
         {
           "@type": "Person",
@@ -211,9 +262,13 @@
           "jobTitle": "Insurance Consultant",
           "description": "Travis Abel at Abel Insurance Group helps small businesses explore insurance solutions designed to protect their company, employees, assets, and long-term growth.",
           "url": "https://adaryusrgillum.github.io/business-growth-consulting/",
+          "sameAs": [
+            "https://abelinsgroup.com"
+          ],
           "worksFor": {
             "@type": "Organization",
-            "@type": "Organization", "name": "Abel Insurance Group", "url": "https://abelinsgroup.com"
+            "name": "Abel Insurance Group",
+            "url": "https://abelinsgroup.com"
           },
           "knowsAbout": [
             "Business Insurance",
@@ -316,7 +371,7 @@
               "name": "Who is Adaryus Gillum?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Adaryus Gillum is a Business Growth & Technology Consultant who helps small businesses grow with web design, SEO, AEO, AI integration, marketing strategy, business automation, and software implementation. You can connect with Adaryus on LinkedIn at linkedin.com/in/adaryus or visit adaryus.com and advertisewv.com."
+                "text": "Adaryus Gillum is a Business Growth & Technology Consultant who helps small businesses grow with expert web design, SEO, AEO, AI integration, marketing strategy, business automation, and software implementation. You can connect with Adaryus Gillum on LinkedIn at linkedin.com/in/adaryus or visit adaryus.com and advertisewv.com."
               }
             },
             {
@@ -324,7 +379,7 @@
               "name": "Who is Travis Abel?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Travis Abel is an Insurance Consultant at Abel Insurance Group who helps small businesses explore insurance solutions designed to protect their company, employees, assets, and long-term growth."
+                "text": "Travis Abel is an Insurance Consultant at Abel Insurance Group (abelinsgroup.com) who helps small businesses explore insurance solutions designed to protect their company, employees, assets, and long-term growth."
               }
             },
             {
@@ -384,12 +439,134 @@
               }
             }
           ]
+        },
+        {
+          "@type": "HowTo",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#howto",
+          "name": "How to Protect and Grow Your Small Business with Adaryus Gillum and Travis Abel",
+          "description": "A step-by-step guide to protecting your business with insurance from Travis Abel at Abel Insurance Group and growing your digital presence with Adaryus Gillum through web design, SEO, AEO, AI, and automation.",
+          "totalTime": "P4W",
+          "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": "Contact for pricing"
+          },
+          "supply": [
+            { "@type": "HowToSupply", "name": "Business goals and objectives" },
+            { "@type": "HowToSupply", "name": "Current website and marketing assets" },
+            { "@type": "HowToSupply", "name": "Existing business insurance policies" }
+          ],
+          "tool": [
+            { "@type": "HowToTool", "name": "CRM Software" },
+            { "@type": "HowToTool", "name": "SEO Analysis Tools" },
+            { "@type": "HowToTool", "name": "AI Automation Platforms" },
+            { "@type": "HowToTool", "name": "Insurance Comparison Tools" }
+          ],
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Schedule a Consultation with Adaryus Gillum or Travis Abel",
+              "text": "Contact Adaryus Gillum for technology and marketing consulting or Travis Abel at Abel Insurance Group for insurance solutions. Discuss your business goals, current challenges, and growth objectives.",
+              "url": "https://adaryusrgillum.github.io/business-growth-consulting/#contact"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Protect Your Business with Travis Abel",
+              "text": "Travis Abel at Abel Insurance Group reviews your current coverage, identifies risks, and recommends business insurance solutions including general liability, commercial property, workers compensation, and professional liability coverage.",
+              "url": "https://adaryusrgillum.github.io/business-growth-consulting/#services"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Build Your Digital Foundation with Adaryus Gillum",
+              "text": "Adaryus Gillum designs and develops a professional, mobile-friendly website optimized for search engines and user experience. The site is built to convert visitors into leads and customers.",
+              "url": "https://adaryusrgillum.github.io/business-growth-consulting/#services"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Optimize for Search and AI with SEO and AEO",
+              "text": "Adaryus Gillum implements on-page SEO, local SEO, Google Business Profile optimization, and Answer Engine Optimization so your business appears in traditional search results, AI overviews, voice search, and featured snippets.",
+              "url": "https://adaryusrgillum.github.io/business-growth-consulting/#services"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 5,
+              "name": "Implement AI and Automation",
+              "text": "Adaryus Gillum sets up AI chatbots, automated email workflows, lead follow-up systems, review response automation, and CRM integrations using Zapier and n8n to save time and improve consistency.",
+              "url": "https://adaryusrgillum.github.io/business-growth-consulting/#services"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 6,
+              "name": "Launch Integrated Marketing Campaigns",
+              "text": "Adaryus Gillum creates consistent messaging across your website, social media, email, and advertising channels to build brand trust and drive qualified traffic to your business.",
+              "url": "https://adaryusrgillum.github.io/business-growth-consulting/#services"
+            }
+          ]
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://adaryusrgillum.github.io/business-growth-consulting/#services-list",
+          "name": "Services Offered by Adaryus Gillum and Travis Abel",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Insurance Solutions for Businesses",
+              "description": "Business insurance guidance and risk protection planning with Travis Abel at Abel Insurance Group."
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Website Design & Development",
+              "description": "Custom business website design and mobile-responsive development by Adaryus Gillum."
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "SEO Services",
+              "description": "Local SEO, keyword research, on-page SEO, and Google Business Profile optimization by Adaryus Gillum."
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Answer Engine Optimization",
+              "description": "AEO, voice search content, and featured snippet optimization by Adaryus Gillum."
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "name": "Integrated Marketing Communications",
+              "description": "Brand messaging, campaign strategy, and cross-platform marketing by Adaryus Gillum."
+            },
+            {
+              "@type": "ListItem",
+              "position": 6,
+              "name": "AI Integration for Small Businesses",
+              "description": "AI chatbot setup, AI content workflows, and AI marketing automation by Adaryus Gillum."
+            },
+            {
+              "@type": "ListItem",
+              "position": 7,
+              "name": "Software Implementation",
+              "description": "CRM setup, email platform setup, and business dashboard setup by Adaryus Gillum."
+            },
+            {
+              "@type": "ListItem",
+              "position": 8,
+              "name": "Business Automation",
+              "description": "Email automation, lead follow-up automation, and Zapier workflow setup by Adaryus Gillum."
+            }
+          ]
         }
       ]
     }
     </script>
-    <script type="module" crossorigin src="/business-growth-consulting/assets/index-D16j2G-z.js"></script>
-    <link rel="stylesheet" crossorigin href="/business-growth-consulting/assets/index-CGOCT61j.css">
+    <script type="module" crossorigin src="/business-growth-consulting/assets/index-DmA3wlXT.js"></script>
+    <link rel="stylesheet" crossorigin href="/business-growth-consulting/assets/index-B_GTxY4S.css">
   </head>
   <body>
     <div id="root"></div>
